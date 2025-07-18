@@ -161,3 +161,31 @@ height: 115px;
 .experience{
     font-size: 1rem;
 }
+
+/* fact style */
+.fact-title{
+    font-size: 2rem;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.card{
+    border: 2px solid #FF900E;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.card-number{
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-text{
+    margin-top: 5px;
+}
