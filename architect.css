@@ -26,7 +26,7 @@
     font-weight: 500;
 }
 .header{
-    background-color: rgba(221, 255, 14, 0.1);
+    background-color: #FFF4E7
 }
 main{
     max-width: 950px;
@@ -188,4 +188,27 @@ height: 115px;
 }
 .card-text{
     margin-top: 5px;
+}
+/* sponsor style */
+.sponsor-title{
+    text-align: center;
+    font-size: 2.2rem;
+}
+.sponsor-text{
+    text-align: center;
+    font-size: 1rem;
+}
+.sponsor-images{
+    display: flex;
+    justify-content: space-around;
+    gap: 35px;
+    margin-top: 50px;
+    filter: grayscale(100%);
+}
+
+.footer{
+    text-align: center;
+    font-size: 1.25rem;
+    background-color: #FFF4E7;
+    margin-top: 50px;
 }
