@@ -113,3 +113,51 @@ main > section{
 .features{
     color: #FF900E;
 }
+
+/* feature design */
+.features-box{
+    display: flex;
+    gap: 86px;
+    margin-left: 60px;
+}
+.architect-img{
+    max-width: 400px;
+    max-height: 900px;
+    margin-top: 20px;
+}
+.box{
+    max-width: 430px;
+    padding: 15px;
+    box-shadow: 0px 4px 15px 0px #455A64;
+}
+.box-title{
+    margin: 5px;
+    font-size: .75rem;
+}
+.box-text{
+    margin: 5px;
+    font-size: .65rem;
+}
+.col1-title{
+    font-size: 2rem;
+    padding-left: 10px;
+    border-left: 2px solid #FF900E;
+    max-width: 430px;
+
+}
+.col1-p{
+    max-width:430px ;
+}
+.badge{
+margin-left: -60px;
+margin-top: -65px;
+width: 200px;
+height: 115px;
+
+}
+.year{
+    font-size: 2.5rem;
+}
+.experience{
+    font-size: 1rem;
+}
